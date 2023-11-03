@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
 
   s.source_files = "Cores", "Cores/**/*.{h,m,swift}"
-  s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}"
+  s.resources = "Cores/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}"
   s.dependency 'Alamofire'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
