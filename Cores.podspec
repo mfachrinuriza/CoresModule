@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.platform = :ios
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
   s.name = "Cores"
   s.summary = "Fachri Expert Dicoding Core.framework for modularization chapter"
   s.requires_arc = true

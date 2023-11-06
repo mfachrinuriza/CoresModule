@@ -7,6 +7,7 @@
 
 import UIKit
 
+@available(iOS 13, *)
 public final class Navigator: ObservableObject {
     public let navigationController: UINavigationController = UINavigationController()
     public let router: any RouterProtocol
